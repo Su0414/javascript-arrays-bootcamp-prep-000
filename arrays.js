@@ -25,7 +25,7 @@ var chocolateBars =["snickers",
  
  
  function destructivelyAddElementToEndOfArray(array, element){
-   console.log("DAEEOA="+array);
+   //console.log("DAEEOA="+array);
    let newArray =array;
    newArray.push(element);
   // console.log("DAEEOA="+newArray);
