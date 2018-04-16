@@ -6,12 +6,13 @@ var chocolateBars =["snickers",
                    
                    
  function addElementToBeginningOfArray(array, element){
-   return [element, ...array];
+   var newArray = [element, ...array];
+   console.log("AEBOA-"+newArray);
+   return newArray;
  }
  
  function destructivelyAddElementToBeginningOfArray(array, element){
    console.log("DAEBOA - "+array);
-   
    return array.unshift(element);
  }
  
