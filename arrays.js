@@ -24,7 +24,7 @@ var chocolateBars =["snickers",
    console.log("DAEEOA="+array);
    const newArray =array.push(element);
    console.log("DAEEOA="+newArray);
-   return newArray;
+   return [...array,newArray];
  }
  
  function accessElementInArray(array, index){
