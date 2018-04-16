@@ -32,12 +32,12 @@ var chocolateBars =["snickers",
  }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-   const newArray = array.shift(element);
+   const newArray = array.shift();
    return newArray;
  }
  
  function removeElementFromBeginningOfArray(array){
-   return array.slice(1);
+   return array.splice(1);
  }
  
  function destructivelyRemoveElementFromEndOfArray(array){
