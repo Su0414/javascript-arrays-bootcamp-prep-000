@@ -7,13 +7,14 @@ var chocolateBars =["snickers",
                    
  function addElementToBeginningOfArray(array, element){
    var newArray = [element, ...array];
-   console.log("AEBOA-"+newArray);
+   //console.log("AEBOA-"+newArray);
    return newArray;
  }
  
  function destructivelyAddElementToBeginningOfArray(array, element){
+   var newArray = array.unshift(element)
    console.log("DAEBOA - "+array);
-   return array.unshift(element);
+   return newArray;
  }
  
  function addElementToEndOfArray(array, element){
