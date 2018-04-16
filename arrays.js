@@ -11,11 +11,11 @@ var chocolateBars =["snickers",
  }
  
  function destructivelyAddElementToBeginningOfArray(array, element){
-     console.log("DAEBOA="+array);
-     console.log("DAEBOA e="+element);
+     //console.log("DAEBOA="+array);
+     //console.log("DAEBOA e="+element);
      let newArray = array;
      newArray.unshift(element);
-     console.log("DAEBOA="+newArray);
+     //console.log("DAEBOA="+newArray);
      return newArray;
  }
  
@@ -28,7 +28,7 @@ var chocolateBars =["snickers",
    console.log("DAEEOA="+array);
    let newArray =array;
    newArray.push(element);
-   console.log("DAEEOA="+newArray);
+  // console.log("DAEEOA="+newArray);
    return newArray;
  }
  
@@ -37,7 +37,8 @@ var chocolateBars =["snickers",
  }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-   let newArray = array.shift();
+   let newArray = array;
+   newArray.shift();
    return newArray;
  }
  
