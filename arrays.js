@@ -35,7 +35,7 @@ var chocolateBars =["snickers",
  }
  
  function destructivelyRemoveElementFromBeginningOfArray(array){
-   const newArray = array.shift();
+   let newArray = array.shift();
    return newArray;
  }
  
@@ -44,7 +44,7 @@ var chocolateBars =["snickers",
  }
  
  function destructivelyRemoveElementFromEndOfArray(array){
-   const newArray=array.pop();
+   let newArray=array.pop();
    return newArray;
  }
  
